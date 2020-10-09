@@ -4,7 +4,7 @@
 <body>
 
 <h2>Név megadása (fontos)</h2>
- <p> példa: </p>
+ <p> példa: Tigyi András </p>
 <form action="/action_page.php">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname" value="Tigyi"><br>
