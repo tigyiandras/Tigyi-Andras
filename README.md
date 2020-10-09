@@ -53,7 +53,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
         var data = JSON.parse(xhttp.responseText);
 
         pageData = '<h1>' + data.student.name + '</h1>';
-        pageData += '<h4>Let\'s learn some ' + data.class + '!</h4>';
+        pageData += '<h4>Ez egy teszt' + data.class + '!</h4>';
         pageData += '<h4>For homework: ' + data.homework[0] + '</h4>';
 
         document.getElementById("page-data").innerHTML = pageData;
