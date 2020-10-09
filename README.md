@@ -20,7 +20,7 @@
 <h2>HTML Image</h2>
 <img src="dog.jpg" alt="kutyus" width="500" height="333">
 
-
+ <img src="laptop.jpg" alt="laptop?"> 
 
 
  
