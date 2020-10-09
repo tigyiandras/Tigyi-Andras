@@ -17,7 +17,8 @@
  <iframe width="420" height="345" src="https://www.youtube.com/watch?v=SrcgzOcRzBM">
 </iframe>
 
-
+<h2>HTML Image</h2>
+<img src="dog.jpg" alt="Trulli" width="500" height="333">
 
 
 
