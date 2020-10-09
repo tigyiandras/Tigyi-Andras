@@ -27,7 +27,7 @@
 <h2>The picture Element</h2>
 
 <picture>
-  <source media="(min-width: 650px)" srcset="dog.jpg">
+  <source media="(min-width: 275px)" srcset="dog.jpg">
   <source media="(min-width: 465px)" srcset="dog2.jpg">
   <img src="dog3.jpg" style="width:auto;">
 </picture>
