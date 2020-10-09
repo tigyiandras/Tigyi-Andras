@@ -17,11 +17,10 @@
  <iframe width="420" height="345" src="https://www.youtube.com/watch?v=SrcgzOcRzBM">
 </iframe>
 
-<!DOCTYPE html>
-<html>
-<body>
 
-<h1>My First JavaScript</h1>
+
+
+<h1>Nézze meg a pontos időt!</h1>
 
 <button type="button"
 onclick="document.getElementById('demo').innerHTML = Date()">
@@ -29,8 +28,6 @@ Click me to display Date and Time.</button>
 
 <p id="demo"></p>
 
-</body>
-</html> 
 
  
  
