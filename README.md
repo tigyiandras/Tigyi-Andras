@@ -14,7 +14,9 @@
 
 
 
-
+ <label for="fname">First name:</azanyámot><br>
+  <input type="text" id="fname" name="fname"><br><br>
+  <input type="submit" value="Submit">
 
 
 
