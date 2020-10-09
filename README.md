@@ -13,14 +13,10 @@
   <input type="submit" value="Submit">
 
 
-
+   <p> Egy cuki videó a macskákról </p>
  <iframe width="420" height="345" src="https://www.youtube.com/watch?v=SrcgzOcRzBM">
 </iframe>
 
-<h2>HTML Image</h2>
-<img src="dog.jpg" alt="kutyus" width="500" height="333">
-
- <img src="laptop.jpg" alt="laptop?"> 
 
 
  
