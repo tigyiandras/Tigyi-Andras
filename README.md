@@ -40,29 +40,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
  
  
  
-<html>
-<head></head>
-<body>
-  <div id='page-data'></div>
-  <script>
-  var xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        var pageData = '';
 
-        var data = JSON.parse(xhttp.responseText);
-
-        pageData = '<h1>' + data.student.name + '</h1>';
-        pageData += '<h4>Ez egy teszt' + data.class + '!</h4>';
-        pageData += '<h4>For homework: ' + data.homework[0] + '</h4>';
-
-        document.getElementById("page-data").innerHTML = pageData;
-        console.log('Done!');
-      }
-  };
-  xhttp.open("GET", "https://raw.githubusercontent.com/programming-liftoff/json-simplified/master/jsondata.json", true);
-  xhttp.send();
-  console.log('here')
-  </script>
-</body>
-</html>
