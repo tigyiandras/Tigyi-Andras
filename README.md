@@ -27,9 +27,9 @@
 <h2>The picture Element</h2>
 
 <picture>
-  <source media="(min-width: 650px)" srcset="img_food.jpg">
-  <source media="(min-width: 465px)" srcset="img_car.jpg">
-  <img src="img_girl.jpg" style="width:auto;">
+  <source media="(min-width: 650px)" srcset="dog.jpg">
+  <source media="(min-width: 465px)" srcset="dog2.jpg">
+  <img src="dog3.jpg" style="width:auto;">
 </picture>
 
 <p>Resize the browser to see different versions of the picture loading at different viewport sizes.
