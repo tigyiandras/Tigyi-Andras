@@ -35,3 +35,34 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 ### Support or Contact
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+ 
+ 
+ 
+ 
+ 
+<html>
+<head></head>
+<body>
+  <div id='page-data'></div>
+  <script>
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        var pageData = '';
+
+        var data = JSON.parse(xhttp.responseText);
+
+        pageData = '<h1>' + data.student.name + '</h1>';
+        pageData += '<h4>Let\'s learn some ' + data.class + '!</h4>';
+        pageData += '<h4>For homework: ' + data.homework[0] + '</h4>';
+
+        document.getElementById("page-data").innerHTML = pageData;
+        console.log('Done!');
+      }
+  };
+  xhttp.open("GET", "https://raw.githubusercontent.com/programming-liftoff/json-simplified/master/jsondata.json", true);
+  xhttp.send();
+  console.log('here')
+  </script>
+</body>
+</html>
