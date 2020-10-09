@@ -19,43 +19,22 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-div {
-  width: 300px;
-  height: 100px;
-  background-color: yellow;
-  border: 1px solid black;
-}
-
-#myDiv {
-  transform: rotateX(150deg);
-}
-</style>
-</head>
 <body>
 
-<h1>The rotateX() Method</h1>
-<p>The rotateX() method rotates an element around its X-axis at a given degree.</p>
+<h2>What Can JavaScript Do?</h2>
 
-<div>
-This a normal div element.
-</div>
+<p>JavaScript can change HTML attribute values.</p>
 
-<div id="myDiv">
-This div element is rotated 150 degrees.
-</div>
+<p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
 
-<p><b>Note:</b> Internet Explorer 9 (and earlier versions) does not support the rotateX() method.</p>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 </html>
-
-
-
-
-
-
 
 
 
